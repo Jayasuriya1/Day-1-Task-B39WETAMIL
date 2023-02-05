@@ -1,0 +1,32 @@
+ objects and its internal representation in Javascript:
+ 
+
+* Objects are one of the fundamental building blocks in Javascript and they are used to store collections of
+ data in an organized manner. An object is a collection of properties and each property is comprised of a
+  key-value pair. The key is used to identify a property and the value is the data stored in that property.
+
+* In Javascript, objects are dynamic, meaning that properties can be added, modified, and removed at runtime.
+ This makes objects an ideal data structure for storing collections of data that can change at runtime.
+
+* The internal representation of objects in Javascript is based on the hash table data structure. A hash
+ table is a data structure that allows for efficient lookup and insertion of data by mapping keys to
+  indices in an array.
+
+* In Javascript, objects are implemented as hash tables where the keys are hashed to indices in an
+ internal array. When a new property is added to an object, a hash value is calculated for the key
+  and this hash value is used to determine the index in the internal array where the key-value pair will be stored.
+
+* When an object property is accessed, the hash value of the key is calculated and used to determine
+ the index in the internal array where the key-value pair is stored. The value associated with the
+  key is then returned.
+
+* The hash table implementation of objects in Javascript has several advantages. First, it allows for
+ efficient access and insertion of data. Second, it enables objects to be resized dynamically,
+  allowing for the storage of an unlimited number of properties. Third, it provides a way to store 
+  properties with the same key in a single object, making it possible to store collections of data 
+  that have duplicate keys.
+
+* In conclusion, objects are an essential building block in Javascript and their internal representation
+ as hash tables provides a powerful and flexible data structure for storing collections of data. Whether
+  you're storing simple data like a user's name and email address or complex data like an entire web
+   application, objects are the go-to data structure for storing and organizing data in Javascript.
